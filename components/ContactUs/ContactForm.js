@@ -100,7 +100,7 @@ function ContactForm() {
             height="450"
             // frameborder="0"
             style={{ border: 0, borderRadius: "10px" }}
-            allowfullscreen=""
+            // allowfullscreen=""
             aria-hidden="false"
             tabindex="0"
           />
