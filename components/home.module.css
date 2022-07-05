@@ -1,0 +1,16 @@
+.Projects_Container {
+  max-width: 1140px;
+  width: 90%;
+  margin: auto;
+  padding: 6rem 0 5rem;
+  color: #fff;
+}
+.Projects_Container h1 {
+  font-size: 5rem;
+}
+
+@media (max-width: 600px) {
+  .Projects_Container h1.heading {
+    font-size: 2.6rem;
+  }
+}

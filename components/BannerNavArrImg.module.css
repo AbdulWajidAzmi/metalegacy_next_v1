@@ -1,0 +1,26 @@
+.nav_arr_img {
+  position: absolute;
+  top: 20px;
+  transform: scale(0.5);
+  opacity: 0;
+  width: 40px;
+  height: 40px;
+  background: #2c58dd;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  right: 10%;
+  transition-duration: 0.2s;
+}
+.nav_arr_img svg {
+  fill: #fff;
+  width: 20px;
+  transition-duration: 0.2s;
+}
+
+@media (max-width: 786px) {
+  .nav_arr_img {
+    display: none;
+  }
+}

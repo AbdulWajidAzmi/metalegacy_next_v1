@@ -1,0 +1,140 @@
+
+
+.firstLayer{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transform: translateY(100%);
+    background: #fff;
+    z-index: 2;
+    top: 0;
+    left: 0;
+  
+  }
+  .banner{
+    color: #fff;
+   overflow:hidden;
+    position: relative;
+  }
+  
+  .banner .container {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+   
+  }
+  .banner h1{
+    font-size: 5rem;
+    overflow: hidden;
+    position: relative;
+    /* top:30px; */
+   pointer-events: none;
+  
+  
+  
+   
+  }
+  .banner .btn{
+   opacity: 0;
+  }
+  .banner h1 > span{
+    display: inline-block;
+    transform: translateY(100%);
+    font-family: cunia;
+  }
+  .banner span span{
+    font-family: inherit;
+    transition-duration: .2s;
+  }
+  .heading > span{
+    font-family: cunia;
+  }
+  .banner h1 .colored{
+    color: #406ae3;
+  }
+  .banner{
+    background-color: #111;
+    overflow: hidden;
+    position: relative;
+  }
+  .banner h4{
+    font-size: 2rem;
+    text-transform: uppercase;
+    position: relative;
+    overflow: hidden;
+   pointer-events: none;
+    
+  }
+  .banner h4 >span{
+    transform: translateY(100%);
+    display: inline-block;
+  }
+  .banner h4 .colored{
+    color: #ffaf00;
+  }
+
+  
+
+
+  
+.banner_navigators{
+    width: 100%;
+    position: absolute;
+    
+    bottom: 0;
+    left: 0;
+    display: flex;
+    transform: translateY(100%);
+  }
+  .banner_btns{
+    margin-bottom: 80px;
+  }
+
+
+
+
+
+
+
+  @media  (max-width:600px){
+    .banner h1 {
+      font-size: 2.5rem;
+    }
+    .banner h4{
+      font-size: 28px;
+    }
+    .banner_btns{
+      width: 80%;
+    }
+    .banner_btns button{
+      margin: 0;
+      width: 100%;
+      max-width: 320px;
+      margin: auto;
+      margin-bottom: .8rem;
+    }
+}
+
+
+@media(max-width:1050px){
+    .banner h1{
+      font-size: 3.5rem;
+    }
+    .banner h4{
+      font-weight: 400;
+    }
+  }
+
+  .btn {
+    cursor: pointer;
+    border: none;
+    border-radius: 24px;
+    height: 40px;
+    min-width: 140px;
+    line-height: 40px;
+    text-align: center;
+  }

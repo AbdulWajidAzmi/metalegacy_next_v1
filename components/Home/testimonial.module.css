@@ -1,0 +1,36 @@
+
+.testimonial_section {
+  padding: 70px 0 70px 0;
+}
+.slider_div {
+  padding: 10px 0px 10px 0px;
+}
+.prev {
+  position: absolute;
+  top: 135px;
+  left: 20px;
+}
+.next {
+  position: absolute;
+  top: 135px;
+  right: 20px;
+}
+.prev:before {
+  font-size: 20px;
+  color: #005adc;
+}
+.next:before {
+  position: absolute;
+  content: "";
+  font-size: 20px;
+  color: #005adc;
+}
+.sec_heading {
+  font-size: 2rem;
+  font-family: cunia;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.sec_heading span {
+  font-family: cunia;
+}

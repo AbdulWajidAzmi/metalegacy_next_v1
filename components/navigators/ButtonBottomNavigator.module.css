@@ -1,0 +1,47 @@
+/* .banner_navigators .banner_navigator{ */
+.banner_navigator{
+    width: 33.33%;
+    height: 150px;
+    background: #fff;
+    color: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: 2px  solid #000;
+    position: relative;
+    cursor: none;
+  }
+
+
+
+  .banner_navigator h5{
+    font-size: 1.2rem;
+    opacity: 0;
+    z-index: 2;
+    text-align: center;
+    /* position: relative; */
+  }
+  .banner_navigator::before{
+    background: #2c58dd;
+    position: absolute;
+    top: 100%;
+    transition-duration: .2s;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 100%;
+    
+  }
+  .banner_navigator:hover{
+    color: #fff;
+  }
+  .banner_navigator:hover  .nav-arr-img{
+    background: #000;
+    
+  }
+  .banner_navigator:hover  .nav-arr-img svg{
+     transform: rotate(0deg)!important;
+  }
+  .banner_navigator:hover::before{
+    top: 0;
+  }
