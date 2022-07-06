@@ -118,7 +118,7 @@ function Testimonial() {
 
   return (
     <section className={`${testimonial_styles.testimonial_section}`}>
-      <div className={`${styles.c_container}`}>
+      <div className={`${testimonial_styles.c_container}`}>
         <h3 className={`${testimonial_styles.sec_heading}`}>
           <span className={`${styles.yellow}`}>Testimonial</span>
         </h3>

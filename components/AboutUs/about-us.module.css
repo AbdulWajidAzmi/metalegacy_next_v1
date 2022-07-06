@@ -117,6 +117,7 @@ background-image: url("../../assets/imgs/about-us/banner.jpg") !important;
   width: 40%;
   height: 270px;
   position: relative;
+  overflow: hidden;
 }
 .laptop {
   position: absolute;
@@ -163,11 +164,6 @@ background-image: url("../../assets/imgs/about-us/banner.jpg") !important;
 }
 
 /* media quries */
-@media (max-width: 1500px) {
-  .c_container { 
-    padding: 0 7%; 
-  }
-}
 @media (max-width: 991px) {
   .contact_form_section {
     padding: 50px 0;
@@ -176,7 +172,7 @@ background-image: url("../../assets/imgs/about-us/banner.jpg") !important;
     padding: 50px 0;
   }
   .c_container { 
-    padding: 0 10%; 
+    padding: 0 30px; 
   }
   .card { 
     padding: 20px;
@@ -211,10 +207,16 @@ background-image: url("../../assets/imgs/about-us/banner.jpg") !important;
     padding: 20px 0;
   } 
   .c_container { 
-    padding: 0 15%; 
+    padding: 0 20px; 
   }
   .main_heading {
     font-size: 1.6rem;
+  }
+  .rocket {
+    position: absolute;
+    /* right: 0; */
+    right: 2%;
+    top: 40px; 
   }
 }
 

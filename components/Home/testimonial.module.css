@@ -33,13 +33,30 @@
 .sec_heading span {
   font-family: cunia;
 }
+.c_container {
+  max-width: 1400px;
+  width: 100%;
+  padding: 30px;
+  margin: 0 auto;
+}
 /* media quries */
+@media (max-width: 1500px) {
+  .c_container { 
+    padding: 0 7%; 
+  }
+}
 @media (max-width: 991px) {
   .testimonial_section {
     padding: 50px 0 50px 0;
   }
+   .c_container { 
+    padding: 0 10%; 
+  }
 }
 @media (max-width: 600px) {
+   .c_container { 
+    padding: 0 15%; 
+  }
   .testimonial_section {
     padding: 30px 0 30px 0;
   }
