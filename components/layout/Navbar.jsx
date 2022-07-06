@@ -133,7 +133,9 @@ const Navbar = () => {
             </Link>
           </li>
         </ul>
-         
+         <div>
+            
+         </div>
         <div onClick={()=> toggleMenu()} className={`${navStyles.icon_img_div}`}>
           <a>
             <Image src={closeIcon} alt={"icon"} />
