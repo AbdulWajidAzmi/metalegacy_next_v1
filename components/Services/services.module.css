@@ -8,7 +8,9 @@
   align-items: center;
   min-height: 600px;
 }
-
+.d_contents {
+  display: contents;
+}
 .service_card .service_card_content,
 .service_card .service_card_img {
   width: 48%;
@@ -357,6 +359,7 @@
   padding: 40px 20px;
   /* text-align: center; */
   /* border: 1px solid #fbfbfb; */
+  cursor: pointer;
   background-color: #fff;
   border-radius: 10px;
   margin-bottom: 15px;

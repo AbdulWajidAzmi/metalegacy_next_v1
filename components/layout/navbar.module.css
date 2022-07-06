@@ -23,7 +23,7 @@
     
   }
   .mob_nav{
-    position: absolute;
+    position: fixed;
     z-index: 5;
     width: 100%;
         height: auto;

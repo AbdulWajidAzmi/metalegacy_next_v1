@@ -13,81 +13,105 @@ function OurServices({ mainHeading, forHome }) {
         )}
 
         <div className={`${styles.services_main_div}`}>
-          <div className={`${styles.service__card}`}>
-            <span className={`${styles.numbering}`}>01</span>
-            <h2 className={`${styles.service_name}`}>Front End Developer</h2>
-            <p className={`${styles.service_text}`}>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus
-              et, doloribus culpa similique quam excepturi nobis eveniet atque
-              ut tenetur ipsam, eligendi libero velit, ducimus necessitatibus
-              rerum nam explicabo aspernatur facere magnam officiis consequatur?
-              Voluptatem voluptas ut molestiae quae iusto.
-            </p>
-          </div>
-          <div className={`${styles.service__card}`}>
-            <span className={`${styles.numbering}`}>02</span>
-            <h2 className={`${styles.service_name}`}>Back End Development</h2>
-            <p className={`${styles.service_text}`}>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus
-              et, doloribus culpa similique quam excepturi nobis eveniet atque
-              ut tenetur ipsam, eligendi libero velit, ducimus necessitatibus
-              rerum nam explicabo aspernatur facere magnam officiis consequatur?
-              Voluptatem voluptas ut molestiae quae iusto.
-            </p>
-          </div>
-          <div className={`${styles.service__card}`}>
-            <span className={`${styles.numbering}`}>03</span>
-            <h2 className={`${styles.service_name}`}>Full Stack Development</h2>
-            <p className={`${styles.service_text}`}>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus
-              et, doloribus culpa similique quam excepturi nobis eveniet atque
-              ut tenetur ipsam, eligendi libero velit, ducimus necessitatibus
-              rerum nam explicabo aspernatur facere magnam officiis consequatur?
-              Voluptatem voluptas ut molestiae quae iusto.
-            </p>
-          </div>
+          <Link href="/services/react">
+            <a className={`${styles.d_contents}`}>
+              <div className={`${styles.service__card}`}>
+                <span className={`${styles.numbering}`}>01</span>
+                <h2 className={`${styles.service_name}`}>Front End Developer</h2>
+                <p className={`${styles.service_text}`}>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus
+                  et, doloribus culpa similique quam excepturi nobis eveniet atque
+                  ut tenetur ipsam, eligendi libero velit, ducimus necessitatibus
+                  rerum nam explicabo aspernatur facere magnam officiis consequatur?
+                  Voluptatem voluptas ut molestiae quae iusto.
+                </p>
+              </div>
+            </a>
+          </Link>
+          <Link href="/services/back-end">
+            <a className={`${styles.d_contents}`}>
+              <div className={`${styles.service__card}`}>
+                <span className={`${styles.numbering}`}>02</span>
+                <h2 className={`${styles.service_name}`}>Back End Development</h2>
+                <p className={`${styles.service_text}`}>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus
+                  et, doloribus culpa similique quam excepturi nobis eveniet atque
+                  ut tenetur ipsam, eligendi libero velit, ducimus necessitatibus
+                  rerum nam explicabo aspernatur facere magnam officiis consequatur?
+                  Voluptatem voluptas ut molestiae quae iusto.
+                </p>
+              </div>
+            </a>
+          </Link>
+          <Link href="/services/full-stack">
+            <a className={`${styles.d_contents}`}>
+              <div className={`${styles.service__card}`}>
+                <span className={`${styles.numbering}`}>03</span>
+                <h2 className={`${styles.service_name}`}>Full Stack Development</h2>
+                <p className={`${styles.service_text}`}>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus
+                  et, doloribus culpa similique quam excepturi nobis eveniet atque
+                  ut tenetur ipsam, eligendi libero velit, ducimus necessitatibus
+                  rerum nam explicabo aspernatur facere magnam officiis consequatur?
+                  Voluptatem voluptas ut molestiae quae iusto.
+                </p>
+              </div>
+            </a>
+          </Link>
           {!forHome ? (
             <>
-              <div className={`${styles.service__card}`}>
-                <span className={`${styles.numbering}`}>04</span>
-                <h2 className={`${styles.service_name}`}>
-                  eCommerce Website Development
-                </h2>
-                <p className={`${styles.service_text}`}>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Delectus et, doloribus culpa similique quam excepturi nobis
-                  eveniet atque ut tenetur ipsam, eligendi libero velit, ducimus
-                  necessitatibus rerum nam explicabo aspernatur facere magnam
-                  officiis consequatur? Voluptatem voluptas ut molestiae quae
-                  iusto.
-                </p>
-              </div>
-              <div className={`${styles.service__card}`}>
-                <span className={`${styles.numbering}`}>05</span>
-                <h2 className={`${styles.service_name}`}>
-                  WordPress Development
-                </h2>
-                <p className={`${styles.service_text}`}>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Delectus et, doloribus culpa similique quam excepturi nobis
-                  eveniet atque ut tenetur ipsam, eligendi libero velit, ducimus
-                  necessitatibus rerum nam explicabo aspernatur facere magnam
-                  officiis consequatur? Voluptatem voluptas ut molestiae quae
-                  iusto.
-                </p>
-              </div>
-              <div className={`${styles.service__card}`}>
-                <span className={`${styles.numbering}`}>06</span>
-                <h2 className={`${styles.service_name}`}>Graphics Designing</h2>
-                <p className={`${styles.service_text}`}>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Delectus et, doloribus culpa similique quam excepturi nobis
-                  eveniet atque ut tenetur ipsam, eligendi libero velit, ducimus
-                  necessitatibus rerum nam explicabo aspernatur facere magnam
-                  officiis consequatur? Voluptatem voluptas ut molestiae quae
-                  iusto.
-                </p>
-              </div>
+              <Link href="/services/ecommerce-development">
+                <a className={`${styles.d_contents}`}>
+                  <div className={`${styles.service__card}`}>
+                    <span className={`${styles.numbering}`}>04</span>
+                    <h2 className={`${styles.service_name}`}>
+                      eCommerce Website Development
+                    </h2>
+                    <p className={`${styles.service_text}`}>
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Delectus et, doloribus culpa similique quam excepturi nobis
+                      eveniet atque ut tenetur ipsam, eligendi libero velit, ducimus
+                      necessitatibus rerum nam explicabo aspernatur facere magnam
+                      officiis consequatur? Voluptatem voluptas ut molestiae quae
+                      iusto.
+                    </p>
+                  </div>
+                </a>
+              </Link>
+              <Link href="/services/wordpress-development">
+                <a className={`${styles.d_contents}`}>
+                  <div className={`${styles.service__card}`}>
+                    <span className={`${styles.numbering}`}>05</span>
+                    <h2 className={`${styles.service_name}`}>
+                      WordPress Development
+                    </h2>
+                    <p className={`${styles.service_text}`}>
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Delectus et, doloribus culpa similique quam excepturi nobis
+                      eveniet atque ut tenetur ipsam, eligendi libero velit, ducimus
+                      necessitatibus rerum nam explicabo aspernatur facere magnam
+                      officiis consequatur? Voluptatem voluptas ut molestiae quae
+                      iusto.
+                    </p>
+                  </div>
+                </a>
+              </Link>
+              <Link href="/services/graphics-designing">
+                <a className={`${styles.d_contents}`}>
+                  <div className={`${styles.service__card}`}>
+                    <span className={`${styles.numbering}`}>06</span>
+                    <h2 className={`${styles.service_name}`}>Graphics Designing</h2>
+                    <p className={`${styles.service_text}`}>
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Delectus et, doloribus culpa similique quam excepturi nobis
+                      eveniet atque ut tenetur ipsam, eligendi libero velit, ducimus
+                      necessitatibus rerum nam explicabo aspernatur facere magnam
+                      officiis consequatur? Voluptatem voluptas ut molestiae quae
+                      iusto.
+                    </p>
+                  </div>
+                </a>
+              </Link>
             </>
           ) : (
             ""

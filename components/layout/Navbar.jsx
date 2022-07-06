@@ -17,16 +17,16 @@ const Navbar = () => {
         <ul className={navStyles.first_nav_list}>
           <li>
             <Link passHref href="/">
-              <Image alt="Tensor Solutions" className="no-circle" src={logo1} />
+              <Image alt="Metalegacy Solutions" className="no-circle" src={logo1} />
             </Link>
           </li>
         </ul>
         <ul className={navStyles.second_nav_list}>
-          <li>
+          {/* <li>
             <Link href="/agency">
               <a className="no-circle">Agency</a>
             </Link>
-          </li>
+          </li> */}
           <li>
             <Link href="/services">
               <a className="no-circle">Services</a>
@@ -102,16 +102,16 @@ const Navbar = () => {
         <ul className={navStyles.mob_first_nav_list}>
           <li>
             <Link passHref href="/">
-              <Image alt="Tensor Solutions" className="no-circle" src={logo1} />
+              <Image alt="Metalegacy Solutions" className="no-circle" src={logo1} />
             </Link>
           </li>
         </ul>
         <ul className={navStyles.mob_second_nav_list}>
-          <li>
+          {/* <li>
             <Link href="/agency">
               <a className="no-circle">Agency</a>
             </Link>
-          </li>
+          </li> */}
           <li>
             <Link href="/services">
               <a className="no-circle">Services</a>

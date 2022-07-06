@@ -134,7 +134,9 @@ const ProjectDetail =({slug})=>{
                     Visit Site
                 </span>
               </a>
-                    <Image alt='baad me'  src={bannerImg}/>
+                   <div className="cover-img-div">
+                   <Image alt='baad me' src={bannerImg}/>
+                   </div>
                 </div>
             
 

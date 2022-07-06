@@ -176,7 +176,7 @@ background-image: url("../../assets/imgs/about-us/banner.jpg") !important;
     padding: 50px 0;
   }
   .c_container { 
-    padding: 0 30px; 
+    padding: 0 10%; 
   }
   .card { 
     padding: 20px;
@@ -211,7 +211,7 @@ background-image: url("../../assets/imgs/about-us/banner.jpg") !important;
     padding: 20px 0;
   } 
   .c_container { 
-    padding: 0 20px; 
+    padding: 0 15%; 
   }
   .main_heading {
     font-size: 1.6rem;

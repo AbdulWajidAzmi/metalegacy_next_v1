@@ -89,7 +89,7 @@ export default function Home({}) {
 
 
     const [bannerContent,setBannerContent] = useState({
-        heading:['rect',"development"],
+        heading:['react',"development"],
         subHeading:["if you can"," think it"," web it"],
         btn1:{
             text:'Our Projects'
