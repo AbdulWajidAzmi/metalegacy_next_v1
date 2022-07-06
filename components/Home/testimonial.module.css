@@ -43,4 +43,7 @@
   .testimonial_section {
     padding: 30px 0 30px 0;
   }
+  .sec_heading {
+    text-align: center;
+  }
 }

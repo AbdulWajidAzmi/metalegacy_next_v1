@@ -383,7 +383,7 @@ a{
   transition: all .3s ease
 }
 .slick-prev {
-  left: -60px !important;
+  left: -50px !important;
 }
 .slick-next {
   right: -40px !important;

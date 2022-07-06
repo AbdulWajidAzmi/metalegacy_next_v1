@@ -415,7 +415,7 @@
   }
 
   .Projects_Container h1 {
-    font-size: 2.5rem;
+    font-size: 1.8rem;
   }
 
   .project_details_first_section_container h1 {
@@ -431,11 +431,11 @@
     top: 18%;
   }
 }
-@media (max-height: 500px) {
+@media (max-height: 600px) and (max-width: 540px) {
   .filter_list h4 {
     top: 15%;
   }
   .filter_list ul {
-    transform: translateY(-40%);
+    transform: translateY(-35%);
   }
 }

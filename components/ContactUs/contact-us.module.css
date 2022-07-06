@@ -124,4 +124,10 @@
     width: 100%;
     padding: 20px 0 0 0;
     }
+    .img_span { 
+      margin-right: 10px;
+    }
+    .contact_div .text {
+      padding-bottom: 10px;
+    }
   }
