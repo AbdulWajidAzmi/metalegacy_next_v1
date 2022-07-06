@@ -70,6 +70,19 @@
   padding-bottom: 20px;
 }
 .copywrite_div p {
+  color: #005adc;
   text-align: center;
   opacity: .6;
 }
+.social_media_icons {
+  display: flex;
+}
+.col_3_flex_div {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.icon_img_div {
+  padding-right: 10px;
+}
+ 

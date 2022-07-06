@@ -2,6 +2,10 @@ import Image from "next/image";
 import Link from "next/link";
 import styles from "./footer.module.css";
 import logo from "../../assets/imgs/logos/logo1.png";
+import fb from "../../assets/imgs/icons/fb.svg";
+import wa from "../../assets/imgs/icons/wa.svg";
+import tw from "../../assets/imgs/icons/tw.svg";
+import gm from "../../assets/imgs/icons/gm.svg";
 
 function Footer() {
   return (
@@ -9,7 +13,9 @@ function Footer() {
       <div className={`${styles.container}`}>
         <div className={`${styles.row_div}`}>
           <div className={`${styles.col_1}`}>
-            <div className={`${styles.logo_img_div}`}><Image src={logo} alt={"image"} /></div>
+            <div className={`${styles.logo_img_div}`}>
+              <Image src={logo} alt={"image"} />
+            </div>
             <p>
               We Build Ideas from Ground up to Make an Impactful Head-Start.
               Your TRUST in Us Defines Your BUSINESS in Market.
@@ -46,19 +52,35 @@ function Footer() {
             </ul>
           </div>
           <div className={`${styles.col_3}`}>
-            <h2>SUPPPORT</h2>
-            <ul>
-              <li>
-                <a>
-                  <Link href="#">Privacy Policy</Link>
-                </a>
-              </li>
-              <li>
-                <a>
-                  <Link href="#">Refund Policy</Link>
-                </a>
-              </li>
-            </ul>
+            <div className={`${styles.col_3_flex_div}`}>
+              <h2>SUPPPORT</h2>
+              <ul>
+                <li>
+                  <a>
+                    <Link href="#">Privacy Policy</Link>
+                  </a>
+                </li>
+                <li>
+                  <a>
+                    <Link href="#">Refund Policy</Link>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div className={`${styles.social_media_icons} social-media-icons`}>
+              <div className={`${styles.icon_img_div}`}>
+                <Image src={fb} alt={"icon"} />
+              </div>
+              <div className={`${styles.icon_img_div}`}>
+                <Image src={wa} alt={"icon"} />
+              </div>
+              <div className={`${styles.icon_img_div}`}>
+                <Image src={tw} alt={"icon"} />
+              </div>
+              <div className={`${styles.icon_img_div}`}>
+                <Image src={gm} alt={"icon"} />
+              </div>
+            </div>
           </div>
         </div>
       </div>

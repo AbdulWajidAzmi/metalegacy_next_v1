@@ -396,7 +396,10 @@ a{
   right: -40px !important;
 } */
 
-
+footer .social-media-icons img  {
+  max-width: 30px;
+  max-height: 30px;
+}
 
 
 
