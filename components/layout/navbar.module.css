@@ -1,4 +1,4 @@
-.nav{
+.nav {
     position: absolute;
     z-index: 5;
     width: 100%;
@@ -22,11 +22,45 @@
     display: flex;
     
   }
+  .mob_nav{
+    position: absolute;
+    z-index: 5;
+    width: 100%;
+        height: auto;
+        display: none;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+      background-color: #fff;
+      color: #111;
+      font-size: 1.1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: .3px;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+padding: 70px 0 40px 0;
+    transform: translateY(-130%);
+    transition: all .3s ease;
+  }
+
+  .show_mob_nav {
+    transform: translateY(-20%);
+
+  }
+
+
 
   .first_nav_list,.third_nav_list{
     width: 200px;
     display: flex;
     align-items: center;
+}
+.mob_first_nav_list,.mob_third_nav_list{
+  width: 200px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 .first_nav_list img{
 cursor: pointer;
@@ -106,4 +140,92 @@ letter-spacing: .6px;
 background-size: 100% 100%;
 
 -webkit-text-fill-color: transparent;
+}
+
+
+
+
+
+
+
+
+
+
+.mob_second_nav_list{
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+padding: 20px 0;
+}
+.mob_second_nav_list li {
+padding: 10px 10px;
+position: relative;
+background-size: 50px 0x;
+background-image: url('https://images.unsplash.com/photo-1557683316-973673baf926?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1129&q=80');
+transition:  1s;
+-webkit-background-clip: text;
+}
+.mob_second_nav_list li::before {
+content: '';
+position: absolute;
+bottom: -3px;
+left: 10px;
+background-color: #2c58dd;
+width: 0;
+height: 3px;
+transition: .5s;
+}
+.mob_second_nav_list li:hover:before,.mob_second_nav_list li.active:before {
+   width: 30px;
+}
+
+.mob_second_nav_list li:hover,.mob_second_nav_list li.active{
+color: #2c58dd;
+letter-spacing: .6px;
+background-size: 100% 100%;
+
+-webkit-text-fill-color: transparent;
+}
+
+
+
+
+
+
+
+
+.icon_img_div {
+  display: none;
+  position: absolute;
+  z-index: 4;
+  /* width: 35px; */
+  width: 28px;
+  padding-right: 10px;
+  right: 10px;
+  top: 30px;
+}
+.icon_img_div a {
+  cursor: pointer;
+}
+.icon_img_div a:hover {
+  opacity: .8;
+}
+/* media quries */
+@media (max-width: 768px) 
+{
+  .nav {
+    position: sticky;
+    top:0;
+  }
+  .icon_img_div {
+    display: block;
+  }
+  .mob_nav {
+    display: flex;
+  }
+  .second_nav_list {
+    display: none;
+  }
 }

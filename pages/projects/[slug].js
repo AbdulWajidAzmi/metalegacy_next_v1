@@ -34,7 +34,7 @@ const ProjectDetail =({slug})=>{
         const handleResize =()=>{
             setIsMobile(window.innerWidth < 768)
         }
-        setBannerImg(()=>isMobile? khansortium_mob_banner: khansortium_banner)
+        setBannerImg(()=>isMobile? khansortium_banner: khansortium_banner)
             window.addEventListener('resize',handleResize)
         return ()=> window.removeEventListener('resize',handleResize)
     },[isMobile])
@@ -151,7 +151,7 @@ const ProjectDetail =({slug})=>{
                 </div>
 
                 <div className={styles.portfolio_image}>
-                    <div className="portfolio_half displaySmallNone">
+                    <div className={`${styles.portfolio_half} displaySmallNone`}>
                     
                     <Image alt='baad me'  src={mob_project1}/>
                     </div>

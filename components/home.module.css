@@ -2,15 +2,32 @@
   max-width: 1140px;
   width: 90%;
   margin: auto;
-  padding: 6rem 0 5rem;
+  padding: 90px 0 70px;
   color: #fff;
 }
 .Projects_Container h1 {
   font-size: 5rem;
 }
-
-@media (max-width: 600px) {
+/* media quries */
+@media (max-width: 991px) {
   .Projects_Container h1.heading {
     font-size: 2.6rem;
+  }
+  .Projects_Container h1 {
+    font-size: 4rem;
+  }
+  .Projects_Container {
+    padding: 50px 0 50px;
+  }
+}
+@media (max-width: 600px) {
+  .Projects_Container {
+    padding: 30px 0 30px;
+  }
+  .Projects_Container h1.heading {
+    font-size: 2.6rem;
+  }
+  .Projects_Container h1 {
+    font-size: 2.5rem;
   }
 }

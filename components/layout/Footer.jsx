@@ -69,16 +69,24 @@ function Footer() {
             </div>
             <div className={`${styles.social_media_icons} social-media-icons`}>
               <div className={`${styles.icon_img_div}`}>
-                <Image src={fb} alt={"icon"} />
+                <a>
+                  <Image src={fb} alt={"icon"} />
+                </a>
               </div>
               <div className={`${styles.icon_img_div}`}>
-                <Image src={wa} alt={"icon"} />
+                <a>
+                  <Image src={wa} alt={"icon"} />
+                </a>
               </div>
               <div className={`${styles.icon_img_div}`}>
-                <Image src={tw} alt={"icon"} />
+                <a>
+                  <Image src={tw} alt={"icon"} />
+                </a>
               </div>
               <div className={`${styles.icon_img_div}`}>
-                <Image src={gm} alt={"icon"} />
+                <a>
+                  <Image src={gm} alt={"icon"} />
+                </a>
               </div>
             </div>
           </div>

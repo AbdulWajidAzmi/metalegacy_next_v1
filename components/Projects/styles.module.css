@@ -383,7 +383,19 @@
       }
       
 
+      @media(max-width: 991px){
+        .Projects_Container h1{
+          font-size: 4rem;
+        }
+         .Projects_Container {
+    padding: 120px 0 50px;
+  }
+      }
   @media(max-width:600px){
+    
+     .Projects_Container {
+    padding: 105px 0 30px;
+  }
     .Project_Card{
         width: 100%;
       }
@@ -404,4 +416,14 @@
       .Projects_Container h1.heading{
         font-size: 2.6rem;
       }
+      
+  .Projects_Container h1{
+    font-size: 2.5rem;
+  }
+  
+  .project_details_first_section_container h1 {
+    font-size: 3rem ;
+ }
+ .project_details_first_section_container h4{
+  font-size: 1.4rem;}
   }

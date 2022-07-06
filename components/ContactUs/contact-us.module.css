@@ -60,9 +60,9 @@
   font-size: 15px;
 }
 .form_control:focus {
-    border: 1px solid #ffaf00;
-    box-shadow: 0px 0px 4px 2px #ffae0086;
-    background-color: #ffbe320e;
+  border: 1px solid #ffaf00;
+  box-shadow: 0px 0px 4px 2px #ffae0086;
+  background-color: #ffbe320e;
 }
 .submit_btn {
   background-color: #ffaf00;
@@ -76,10 +76,52 @@
 }
 
 .submit_btn:hover {
-    background-color: #cf8e00;
+  background-color: #cf8e00;
 }
 .map_div iframe {
-    border-radius: 10px;
-    overflow: hidden;
+  border-radius: 10px;
+  overflow: hidden;
   padding-top: 50px;
 }
+/* media quries */
+
+@media (max-width: 1050px) {
+  .banner h1 {
+    font-size: 3.5rem;
+  }
+  .banner h4 {
+    font-weight: 400;
+  }
+}
+.banner_btns {
+  margin-bottom: 80px;
+}
+@media (max-width: 900px) {
+  .contact_form_section {
+    padding: 10px 0;
+  }
+  .form_div_left {
+    padding-left: 0;
+    padding-right: 20px;
+  }
+  .form_div_right {
+    padding-right: 0;
+    padding-left: 20px;
+  }
+}
+@media (max-width: 600px) {
+  .contact_form_section {
+    padding: 0;
+  }
+  .form_div {
+    flex-direction: column;
+  }
+  .form_div_left {
+    width: 100%;
+    padding: 0;
+  }
+  .form_div_right {
+    width: 100%;
+    padding: 20px 0 0 0;
+    }
+  }

@@ -407,21 +407,25 @@
   background-color: #2046c4;
 }
 
-
+/* media quries */ 
 @media(max-width: 991px) {
   .service__card {
     width: 48%;
   }
 }
-
-@media(max-width: 576px) {
- .services_section {
-  padding: 30px 0;
- } 
-.serv_container {
-  padding: 10px;
- }
-  .service__card {
-    width: 100%;
+@media (max-width: 600px) {
+  .testimonial_section {
+    padding: 30px 0 30px 0;
   }
+  .services_section {
+    padding: 20px 0;
+   } 
+  .serv_container {
+    padding: 10px;
+   }
+    .service__card {
+      width: 100%;
+    }
 }
+
+
