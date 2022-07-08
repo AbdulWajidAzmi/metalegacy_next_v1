@@ -7,7 +7,7 @@ import styles from './hero.module.css'
 
 
 const bannerContent= {
-    heading: ["Metalegacy","Solutions" ],
+    heading: ["Meta","Legacy" ],
     subHeading:["If you can", "Think it, ", "We" ,"can Web It"],
      btn1:{
          text:'Our Projects'

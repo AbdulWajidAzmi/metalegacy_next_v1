@@ -17,7 +17,7 @@ const Navbar = () => {
         <ul className={navStyles.first_nav_list}>
           <li>
             <Link passHref href="/">
-              <Image alt="Metalegacy Solutions" className="no-circle" src={logo1} />
+              <Image alt="Meta Legacy" className="no-circle" src={logo1} />
             </Link>
           </li>
         </ul>
@@ -102,7 +102,7 @@ const Navbar = () => {
         <ul className={navStyles.mob_first_nav_list}>
           <li>
             <Link passHref href="/">
-              <Image alt="Metalegacy Solutions" className="no-circle" src={logo1} />
+              <Image alt="Meta Legacy" className="no-circle" src={logo1} />
             </Link>
           </li>
         </ul>

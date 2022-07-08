@@ -94,7 +94,7 @@ function Footer() {
       </div>
       <div className={`${styles.copywrite_div}`}>
         <div className={`${styles.container}`}>
-          <p>Copyright @ 2022, Metalegacy.com</p>
+          <p>Copyright @ 2022, metalegacy.com</p>
         </div>
       </div>
     </footer>

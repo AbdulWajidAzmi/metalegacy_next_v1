@@ -13,7 +13,7 @@ function OurServices({ mainHeading, forHome }) {
         )}
 
         <div className={`${styles.services_main_div}`}>
-          <Link href="/services/react">
+          <Link href="/services/front-end">
             <a className={`${styles.d_contents}`}>
               <div className={`${styles.service__card}`}>
                 <span className={`${styles.numbering}`}>01</span>
@@ -60,7 +60,7 @@ function OurServices({ mainHeading, forHome }) {
           </Link>
           {!forHome ? (
             <>
-              <Link href="/services/ecommerce-development">
+              <Link href="/services/ecommerce">
                 <a className={`${styles.d_contents}`}>
                   <div className={`${styles.service__card}`}>
                     <span className={`${styles.numbering}`}>04</span>
@@ -78,7 +78,7 @@ function OurServices({ mainHeading, forHome }) {
                   </div>
                 </a>
               </Link>
-              <Link href="/services/wordpress-development">
+              <Link href="/services/wordpress">
                 <a className={`${styles.d_contents}`}>
                   <div className={`${styles.service__card}`}>
                     <span className={`${styles.numbering}`}>05</span>
