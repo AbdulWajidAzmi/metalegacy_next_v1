@@ -3,7 +3,7 @@ import styles from '../../components/Projects/styles.module.css'
 import Image from 'next/image'
 
 const ProjectDetailsPage = ({data}) => {
-    console.log("data",data.banner)
+    // console.log("data",data.banner)
   return (
     <div className={styles.Project_Details}>
       <div className={styles.project_details_first_section}>
@@ -75,7 +75,7 @@ const ProjectDetailsPage = ({data}) => {
       <div className={styles.portfolio_images}>
 <h1>go</h1>
         {data?.images?.map(img=> 
-          <div className={`${styles.portfolio_image}`}  >
+          <div className={`${styles.portfolio_image}`}  key={data.images+1}>
           <Image alt="baad me" src={img.src} width={100} height={100} />
         </div>
         )}
