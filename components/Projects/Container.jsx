@@ -9,57 +9,62 @@ import project1 from "../../assets/imgs/projects/prj1.webp";
 import project2 from "../../assets/imgs/projects/prj2.webp";
 import project3 from "../../assets/imgs/projects/prj3.webp";
 import project4 from "../../assets/imgs/projects/prj4.webp";
+import barringtonThumbnail from '../../assets/imgs/projects/barrington/thumbnail.jpg';
+import gammaVrThumbnail from '../../assets/imgs/projects/gamma-vr/thumbnail.jpg';
+import khansortiumThumbnail from '../../assets/imgs/projects/khansortium/thumbnail.jpg';
+import wholeCellThumbnail from '../../assets/imgs/projects/wholecell/thumbnail.jpg';
 
 const Container = () => {
     const [projects, setProjects] = useState([
         {
-            title: "Khansortium",
-            id: "khansortium",
-            category: "front-end-development",
-            categoryTitle: "Front End Development",
-            thumbnail_image: project1,
-            portfolio_images: []
+            "title": "Barrington",
+            "id": "barrington",
+            "category": "full-stack-development",
+            "categoryTitle": "Front End Development",
+            "thumbnail_image": barringtonThumbnail,
+            "portfolio_images": []
+        },
+        
+        // {
+        //     "title": "Crescent Cricket Club",
+        //     "id": "crescent_cricket_club",
+        //     "category": "front-end-development",
+        //     "categoryTitle": "Front End Development",
+        //     "thumbnail_image": "https://khansortium.com/portfolios/crescent_cricket_club/crescent_cricket_club.jpeg",
+        //     "portfolio_images": []
+        // },
+        {
+            "title": "Gamma Vr",
+            "id": "gamma-vr",
+            "category": "full-stack-development",
+            "categoryTitle": "Front End Development",
+            "thumbnail_image": gammaVrThumbnail,
+            "portfolio_images": []
         },
         {
-            title: "Crescent Cricket Club",
-            id: "crescent_cricket_club",
-            category: "front-end-development",
-            categoryTitle: "Front End Development",
-            thumbnail_image: project2,
-            portfolio_images: []
+            "title": "Khansortium",
+            "id": "khansortium",
+            "category": "front-end-development",
+            "categoryTitle": "Front End Development",
+            "thumbnail_image": khansortiumThumbnail,
+            "portfolio_images": []
         },
         {
-            title: "Gamma Vr",
-            id: "gamma_vr",
-            category: "full-stack-development",
-            categoryTitle: "Front End Development",
-            thumbnail_image: project3,
-            portfolio_images: []
+            "title": "Whole Cell Accessories",
+            "id": "whole-cell",
+            "category": "full-stack-development",
+            "categoryTitle": "Front End Development",
+            "thumbnail_image": wholeCellThumbnail,
+            "portfolio_images": []
         },
-        {
-            title: "We Fix Phones",
-            id: "we_fix_phones",
-            category: "full-stack-development",
-            categoryTitle: "Front End Development",
-            thumbnail_image: project4,
-            portfolio_images: []
-        },
-        {
-            title: "Whole Cell Accessories",
-            id: "whole_cell_accessories",
-            category: "full-stack-development",
-            categoryTitle: "Front End Development",
-            thumbnail_image: project1,
-            portfolio_images: []
-        },
-        {
-            title: "Markaz ul Fiqh",
-            id: "markaz_ul_fiqh",
-            category: "full-stack-development",
-            categoryTitle: "Front End Development",
-            thumbnail_image: project2,
-            portfolio_images: []
-        }
+        // {
+        //     "title": "Markaz ul Fiqh",
+        //     "id": "markaz_ul_fiqh",
+        //     "category": "full-stack-development",
+        //     "categoryTitle": "Front End Development",
+        //     "thumbnail_image": "https://khansortium.com/portfolios/markaz_ul_fiqh/markaz_ul_fiqh.jpeg",
+        //     "portfolio_images": []
+        // }
     ])
 
     const openFilter = () => {
