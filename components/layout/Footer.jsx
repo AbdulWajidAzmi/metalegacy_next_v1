@@ -31,28 +31,28 @@ function Footer() {
             <ul>
               <li>
                 <a>
-                  <Link href="#">Home</Link>
+                <Link href="/">Home</Link>
                 </a>
               </li>
               <li>
                 <a>
-                  <Link href="#">Portfolio</Link>
+                <Link href="/projects">Portfolio</Link>
                 </a>
               </li>
               <li>
                 <a>
-                  <Link href="#">About Us</Link>
+                <Link href="/about-us">About Us</Link>
                 </a>
               </li>
               <li>
                 <a>
-                  <Link href="#">Contact</Link>
+            <Link href="/contact-us">Contact</Link>
                 </a>
               </li>
             </ul>
           </div>
           <div className={`${styles.col_3}`}>
-            <div className={`${styles.col_3_flex_div}`}>
+            {/* <div className={`${styles.col_3_flex_div}`}>
               <h2>SUPPPORT</h2>
               <ul>
                 <li>
@@ -66,7 +66,7 @@ function Footer() {
                   </a>
                 </li>
               </ul>
-            </div>
+            </div> */}
             <div className={`${styles.social_media_icons} social-media-icons`}>
               <div className={`${styles.icon_img_div}`}>
                 <a>
