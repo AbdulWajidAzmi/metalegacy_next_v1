@@ -19,11 +19,7 @@ function OurServices({ mainHeading, forHome }) {
                 <span className={`${styles.numbering}`}>01</span>
                 <h2 className={`${styles.service_name}`}>Front End Developer</h2>
                 <p className={`${styles.service_text}`}>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus
-                  et, doloribus culpa similique quam excepturi nobis eveniet atque
-                  ut tenetur ipsam, eligendi libero velit, ducimus necessitatibus
-                  rerum nam explicabo aspernatur facere magnam officiis consequatur?
-                  Voluptatem voluptas ut molestiae quae iusto.
+                Being a front-end web development company with over 15 years, we have experience in building complex, innovative, responsive, and user-centric solutions. Our interfaces are designed with close attention to detail and look great on both desktop screens and mobile devices.
                 </p>
               </div>
             </a>
@@ -34,11 +30,7 @@ function OurServices({ mainHeading, forHome }) {
                 <span className={`${styles.numbering}`}>02</span>
                 <h2 className={`${styles.service_name}`}>Back End Development</h2>
                 <p className={`${styles.service_text}`}>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus
-                  et, doloribus culpa similique quam excepturi nobis eveniet atque
-                  ut tenetur ipsam, eligendi libero velit, ducimus necessitatibus
-                  rerum nam explicabo aspernatur facere magnam officiis consequatur?
-                  Voluptatem voluptas ut molestiae quae iusto.
+                We provide custom back-end development for various web, cloud-based and mobile apps across multiple domains. Whatever your requirements, our back-end development team will provide you with a customized solution that will help you achieve your business goals.
                 </p>
               </div>
             </a>
@@ -68,12 +60,7 @@ function OurServices({ mainHeading, forHome }) {
                       eCommerce Website Development
                     </h2>
                     <p className={`${styles.service_text}`}>
-                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                      Delectus et, doloribus culpa similique quam excepturi nobis
-                      eveniet atque ut tenetur ipsam, eligendi libero velit, ducimus
-                      necessitatibus rerum nam explicabo aspernatur facere magnam
-                      officiis consequatur? Voluptatem voluptas ut molestiae quae
-                      iusto.
+                    E-commerce is an innovative way of doing business. It has revolutionized the process of online shopping by changing the way consumers buy or sell goods and services. Metalegacy helps you transform your e-commerce dream into reality with its out of the box ideas. Being the top service provider of eCommerce website development company, we focus on developing a unique webshop that saves you time and enhances the functionality of your online business.
                     </p>
                   </div>
                 </a>
@@ -86,12 +73,7 @@ function OurServices({ mainHeading, forHome }) {
                       WordPress Development
                     </h2>
                     <p className={`${styles.service_text}`}>
-                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                      Delectus et, doloribus culpa similique quam excepturi nobis
-                      eveniet atque ut tenetur ipsam, eligendi libero velit, ducimus
-                      necessitatibus rerum nam explicabo aspernatur facere magnam
-                      officiis consequatur? Voluptatem voluptas ut molestiae quae
-                      iusto.
+                    With our focus on WordPress development, you can rest assured that our team is well-versed in the best practices and newest features. In fact, our interest in WordPress goes far beyond our jobs. More than half of the Metalegacy team has donated their own time to contribute to the core development of WordPress and have built a number of WordPress Plugins that are available for public download.
                     </p>
                   </div>
                 </a>
@@ -102,12 +84,7 @@ function OurServices({ mainHeading, forHome }) {
                     <span className={`${styles.numbering}`}>06</span>
                     <h2 className={`${styles.service_name}`}>Graphics Designing</h2>
                     <p className={`${styles.service_text}`}>
-                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                      Delectus et, doloribus culpa similique quam excepturi nobis
-                      eveniet atque ut tenetur ipsam, eligendi libero velit, ducimus
-                      necessitatibus rerum nam explicabo aspernatur facere magnam
-                      officiis consequatur? Voluptatem voluptas ut molestiae quae
-                      iusto.
+                    It’s hard to get noticed in a world of visual noise. While businesses increasingly use videos and images to attract customers, it’s stunning visuals that will make you stand out from the rest. We provide professional graphic design services to help you create the perfect blend of creativity. Our creatives team has years of experience designing videos, infographics, 3D animations, logos and more. You can rely on our expertise to ensure your visuals capture your audience’s attention.
                     </p>
                   </div>
                 </a>
