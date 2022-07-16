@@ -1,6 +1,6 @@
 import Image from "next/image";
 // import logo from '../../assets/imgs/logos/logo.png';
-import logo1 from "../../assets/imgs/logos/logo1.png";
+import logo1 from "../../assets/imgs/logos/META LOGO-01.svg";
 import Link from "next/link";
 import navStyles from "./navbar.module.css";
 import menuBar from "../../assets/imgs/icons/menu-bar.svg";
@@ -15,9 +15,9 @@ const Navbar = () => {
     <>
       <nav className={navStyles.nav}>
         <ul className={navStyles.first_nav_list}>
-          <li>
+          <li style={{width:'400px'}} className={navStyles.headerLogo}>
             <Link passHref href="/">
-              <Image alt="Meta Legacy" className="no-circle" src={logo1} />
+              <Image alt="Meta Legacy"   className="no-circle" src={logo1} />
             </Link>
           </li>
         </ul>

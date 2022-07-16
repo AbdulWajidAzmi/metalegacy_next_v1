@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import styles from "./footer.module.css";
-import logo from "../../assets/imgs/logos/logo1.png";
+import logo from "../../assets/imgs/logos/META LOGO-01.svg";
 import fb from "../../assets/imgs/icons/fb.svg";
 import wa from "../../assets/imgs/icons/wa.svg";
 import tw from "../../assets/imgs/icons/tw.svg";
