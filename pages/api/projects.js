@@ -2,8 +2,8 @@ import barringtonThumbnail from '../../assets/imgs/projects/barrington/thumbnail
 
 const projects = [
     {
-        "title": "Barrington",
-        "id": "barrington",
+        "title": "Barrington Crescent Cricket Club",
+        "id": "barrington-crescent-cricket-club",
         "category": "full-stack-development",
         "categoryTitle": "Front End Development",
         "thumbnail_image": barringtonThumbnail,

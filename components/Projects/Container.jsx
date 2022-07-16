@@ -17,8 +17,8 @@ import wholeCellThumbnail from '../../assets/imgs/projects/wholecell/thumbnail.j
 const Container = () => {
     const [projects, setProjects] = useState([
         {
-            "title": "Barrington",
-            "id": "barrington",
+            "title": "Barrington Crescent Cricket Club",
+            "id": "barrington-crescent-cricket-club",
             "category": "full-stack-development",
             "categoryTitle": "Front End Development",
             "thumbnail_image": barringtonThumbnail,

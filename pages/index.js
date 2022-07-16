@@ -16,42 +16,48 @@ import ProjectCard from "../components/Projects/ProjectCard";
 
 import gsap from "gsap/dist/gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
+import barringtonThumbnail from '../assets/imgs/projects/barrington/thumbnail.jpg';
+import gammaVrThumbnail from '../assets/imgs/projects/gamma-vr/thumbnail.jpg';
+import khansortiumThumbnail from '../assets/imgs/projects/khansortium/thumbnail.jpg';
+import wholeCellThumbnail from '../assets/imgs/projects/wholecell/thumbnail.jpg';
+
 gsap.registerPlugin(ScrollTrigger);
 
 export default function Home() {
 
   const [projects, setProjects] = useState(
     [
+  
+      {
+        title: "Barrington Crescent Cricket Club",
+       id: "barrington-crescent-cricket-club",
+        category: "full-stack-development",
+        categoryTitle: "Front End Development",
+        thumbnail_image: barringtonThumbnail,
+        portfolio_images: [],
+      },
+      {
+        title: "Gamma Vr",
+        id: "gamma-vr",
+        category: "full-stack-development",
+        categoryTitle: "Front End Development",
+        thumbnail_image: gammaVrThumbnail,
+        portfolio_images: [],
+      },
       {
         title: "Khansortium",
         id: "khansortium",
         category: "front-end-development",
         categoryTitle: "Front End Development",
-        thumbnail_image: project1,
+        thumbnail_image: khansortiumThumbnail,
         portfolio_images: [],
       },
       {
-        title: "Crescent Cricket Club",
-        id: "crescent_cricket_club",
-        category: "front-end-development",
-        categoryTitle: "Front End Development",
-        thumbnail_image: project2,
-        portfolio_images: [],
-      },
-      {
-        title: "Gamma Vr",
-        id: "gamma_vr",
+        title: "Whole Cell Accessories",
+        id: "whole-cell",
         category: "full-stack-development",
         categoryTitle: "Front End Development",
-        thumbnail_image: project3,
-        portfolio_images: [],
-      },
-      {
-        title: "We Fix Phones",
-        id: "we_fix_phones",
-        category: "full-stack-development",
-        categoryTitle: "Front End Development",
-        thumbnail_image: project4,
+        thumbnail_image: wholeCellThumbnail,
         portfolio_images: [],
       },
     ],

@@ -1,9 +1,15 @@
 import React from "react";
 import styles from '../../components/Projects/styles.module.css'
 import Image from 'next/image'
+import barringtonBanner from '../../assets/imgs/projects/barrington/banner.jpg';
+import khansortiumBanner from "../../assets/imgs/projects/khansortium/banner.jpg";
+
 
 const ProjectDetailsPage = ({data}) => {
-    // console.log("data",data.banner)
+    console.log("data ",data);
+    console.log("data ",data);
+    // console.log("data.banner.src ",data.banner.src);
+    // console.log("data.banner.slug ",data.banner.slug);
   return (
     <div className={styles.Project_Details}>
       <div className={styles.project_details_first_section}>
@@ -18,6 +24,7 @@ const ProjectDetailsPage = ({data}) => {
             <span>{data.category}</span>
           </div>
         </div>
+        
         <div className={styles.project_banner} id="banner_img">
           <a href="#banner_img">
             <span
@@ -68,74 +75,53 @@ const ProjectDetailsPage = ({data}) => {
             </span>
           </a>
           <div className="cover-img-div">
-            {/* <Image src={data.banner} width={100} height={399} layout="responsive"  alt="baad me" /> */}
+          {data.banner? 
+          <Image src={data.banner.src} width={data.banner.width} height={data.banner.height}  alt="baad me" />
+          : ""}
           </div>
         </div>
       </div>
       <div className={styles.portfolio_images}>
-<h1>go</h1>
-        {data?.images?.map(img=> 
-          <div className={`${styles.portfolio_image}`}  key={data.images+1}>
-          <Image alt="baad me" src={img.src} width={100} height={100} />
-        </div>
-        )}
-<h1>go</h1>
+ 
+        <div className={`${styles.portfolio_image2}`}  >
 
-        <div className={styles.portfolio_image}>
-          {/* <Image alt="baad me" src={khansortium_portfolio_img1} /> */}
-        </div>
+        {data?.images?.map((img)=> {
+          return (
 
-        <div className={styles.portfolio_image}>
-          {/* <Image alt="baad me" src={khansortium_portfolio_img11} /> */}
+            <>
+              {img.width < 600 ? 
+                <div className={`${styles.portfolio_half} displaySmallNone`}>
+                  <Image  key={data.images+1} src={img.src} width={img.width} height={img.height}  alt="baad me" />
+                </div>
+                : 
+                  <Image  key={data.images+1} src={img.src} width={img.width} height={img.height}  alt="baad me" />
+                }
+            </>
+
+                )
+            })}
+ 
+            </div>
+
+     
+
+        {/* <div className={styles.portfolio_image}>
+          <Image alt="baad me" src={khansortium_portfolio_img11} />
         </div>
 
         <div className={styles.portfolio_image}>
           <div className={`${styles.portfolio_half} displaySmallNone`}>
-            {/* <Image alt="baad me" src={mob_project1} /> */}
+            <Image alt="baad me" src={mob_project1} />
           </div>
           <div className={styles.portfolio_half}>
-            {/* <Image alt="baad me" src={mob_project1} /> */}
+            <Image alt="baad me" src={mob_project1} />
           </div>
-        </div>
+        </div> */}
 
-        <div className={styles.portfolio_image}>
-          {/* <Image alt="baad me" src={khansortium_portfolio_img2} /> */}
-        </div>
 
-        {/* <div className={styles.portfolio_image}></div> */}
-        <div className={styles.portfolio_image}>
-          {/* <Image alt="baad me" src={khansortium_portfolio_img3} /> */}
-        </div>
 
-        <div className={styles.portfolio_image}>
-          {/* <Image alt="baad me" src={khansortium_portfolio_img1} /> */}
-        </div>
 
-        <div className={styles.portfolio_image}>
-          <div className={styles.portfolio_half}>
-            {/* <Image alt="baad me" src={mob_project2} /> */}
-          </div>
-          <div className={styles.portfolio_half}>
-            {/* <Image alt="baad me" src={mob_project2} /> */}
-          </div>
-        </div>
 
-        <div className={styles.portfolio_image}>
-          {/* <Image alt="baad me" src={khansortium_portfolio_img2} /> */}
-        </div>
-
-        <div className={styles.portfolio_image}>
-          {/* <Image alt="baad me" src={khansortium_portfolio_img3} /> */}
-        </div>
-
-        <div className={styles.portfolio_image}>
-          <div className={styles.portfolio_half}>
-            {/* <Image alt="baad me" src={mob_project3} /> */}
-          </div>
-          <div className="portfolio_half displaySmallNone">
-            {/* <Image alt="baad me" src={mob_project3} /> */}
-          </div>
-        </div>
       </div>
     </div>
   );
